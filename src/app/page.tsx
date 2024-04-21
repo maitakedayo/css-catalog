@@ -1121,7 +1121,7 @@ export default function Home() {
         ])}
       >
         <div className="py-2 ring-red-500/50 focus-within:ring-2">
-          <label for="name">名前を入れて</label>
+          <label htmlFor="name">名前を入れて</label>
           <input
             required
             maxlength="5"
