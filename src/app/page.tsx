@@ -1124,7 +1124,6 @@ export default function Home() {
           <label htmlFor="name">名前を入れて</label>
           <input
             required
-            maxlength="5"
             id="name"
             type="text"
             className="border border-gray-300 placeholder:text-blue-400 required:border-pink-500 valid:border-green-500 out-of-range:border-red-500"
